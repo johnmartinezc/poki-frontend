@@ -19,9 +19,8 @@ Server installs-
 
 client installs-
  npx create-react-app
-  npm install Bootstrap 
-  npm install dotenv npm 
-  install axios 
+  npm install react-bootstrap 
+  npm install axios 
   npm install react-router-dom
 
 Usage: 
