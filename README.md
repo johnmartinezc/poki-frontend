@@ -24,11 +24,12 @@ client installs-
   install axios 
   npm install react-router-dom
 
-Usage: -Pic of Home Page 
+Usage: 
+-Pic of Home Page 
 -Pic of Registration Page
- -Pic of Login Pag
- e -Pic of item catalogue
-  -Pic of shopping cart
+-Pic of Login Page
+-Pic of item catalogue
+-Pic of shopping cart
 
 Contributing: No
 
