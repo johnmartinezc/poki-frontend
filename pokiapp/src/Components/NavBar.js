@@ -16,8 +16,11 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             {/* <Nav.Link href="/blogs">Blogs blogs and bloooogs</Nav.Link> */}
-            <Nav.Link href="/registration">Registration</Nav.Link>
-			<Nav.Link href="/login">Login</Nav.Link>
+          <Nav.Link href="/Pokimon ">Pokemon</Nav.Link>
+          <br></br>
+          <Nav.Link href="/registration">Registration</Nav.Link>
+          <br></br>
+			    <Nav.Link href="/login">Login</Nav.Link>
             {/* <NavDropdown title="Members only" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/create-one">Create Blog</NavDropdown.Item>
               

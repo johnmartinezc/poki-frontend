@@ -3,7 +3,7 @@ import GlobalLayout from "./Layouts/GlobalLayout";
 import HomePage from "./Pages/HomePage";
 import LoginPage from "./Pages/Login";
 import RegistrationPage from "./Pages/Registration";
-
+import Pokemon from "./Pages/Pokemon";
 import './App.css';
 
 function App() {
