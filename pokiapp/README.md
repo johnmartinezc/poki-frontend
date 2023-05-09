@@ -1,3 +1,55 @@
+Pokemon NFTs
+
+Home Page - Where user can see greeting to site and navigation 
+
+Account Registration - Where user can create an account to be remembered and store items in cart 
+
+ccount Login - Where user can login to account 
+
+Product List Page - Where users can explore the wide variety of pokemons
+
+Product Details - Where users can click on item and be shown pokemons details 
+
+Shopping Cart - Where users can see the items they want to buy 
+
+Contact - Where users can contact company
+
+Installation Dependencies: Node Git GitHub
+
+Server installs- 
+npx express-generator 
+npm install mongodb 
+npm install cors 
+npm install nodemon 
+npm install dotenv 
+npm install bcryptJS 
+npm install JsonWebToken
+ npm install uuidv4
+
+client installs- 
+npx create-react-app
+ npm install Bootstrap npm 
+ install dotenv 
+ npm install axios 
+ npm install react-router-dom
+
+Usage: -Naviate between  Home Page, Registration , Login, catalogue and shopping cart
+
+Contributing: No
+
+Author: John Martinez
+
+Project Status: in the works
+
+Contact:
+ Discord: zentrix203
+ server: https://discord.com/channels/591366881529692177/591366881529692185 
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
