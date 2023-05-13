@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
+}
+.App-header{
+  background-color: rgb(0, 0, 0);
+  background-image: url("https://i.pinimg.com/originals/95/9f/b1/959fb1f51bc1026ace27acede55e1bc8.gif");
 }
 
 code {
@@ -47,6 +53,15 @@ body {
 
 .pokemonWelcome{
  background-color: black;
+}
+
+.PokemonGIF{
+  width: 100%;
+  
+}
+.NavBar{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* .card {
   opacity: 0;

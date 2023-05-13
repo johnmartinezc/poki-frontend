@@ -8,7 +8,7 @@ const NavBar = () => {
 	const auth = useAuth();
 
 	return (
-		<div>
+		<div className="NavBar">
 		<h3>{auth.userEmail && `Current User: ${auth.userEmail}`}</h3>
 		<Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="/">Home</Navbar.Brand>

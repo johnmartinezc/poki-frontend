@@ -52,7 +52,7 @@ const HomePage = () => {
 	return (
 		<div>
 			<h1>Home</h1>
-            <p className="Greeting">Welcome</p>
+            <p className="Greeting">Welcome to your PokieNFT</p>
 			{ message.length !== 0 && <p>Message: {message}</p>}
 		</div>
     )

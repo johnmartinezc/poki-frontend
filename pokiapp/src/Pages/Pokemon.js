@@ -11,7 +11,8 @@ const Pokemon = () => {
     return (
 		<div>
 			
-            <h1 id='pokemonWelcome'>Welcome to the pokemon center</h1>
+            <h1 className='pokemonWelcome'>Welcome to the pokemon center</h1>
+            <img className="PokemonGIF" src="http://textfiles.com/underconstruction/HeHeartlandPark2601underconstructionbar9.gif" alt="empGif"></img>
 		</div>
     )
 }
