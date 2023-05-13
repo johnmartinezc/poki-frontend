@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#pokemonLogo {
+  width: 75%;
+}
+#characterLabel {
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+#arrowButton1, #arrowButton2{
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  align-items: center;
+}
+#backArrowButton{
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+#cardGroup {
+  background-color: black;
+  font-size: x-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.characterInfo {
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#versusImg{
+  object-position: center
+}
+
+.pokemonWelcome{
+ background-color: black;
+}
+/* .card {
+  opacity: 0;
+}
+#card2 {
+  opacity: 0;
+}
+#mainPageCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  opacity: 15;
+}*/
+
+#versusImg{ 
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}

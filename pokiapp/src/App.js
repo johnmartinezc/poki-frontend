@@ -19,7 +19,10 @@ function App() {
 					index: true,
 					element: <HomePage />
 				},
-        
+				{
+					path: 'Pokemon',
+					element: <Pokemon/>
+				},
 				{
 					path: "Login",
 					element: <LoginPage />
