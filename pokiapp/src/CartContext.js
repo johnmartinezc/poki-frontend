@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const CartContext = createContext({
     items: [],
-    toys: [],
+    Cards: [],
     getProductQuantity: () => {},
     addOneToCart: () => {},
     removeOneFromCart: () => {},
@@ -14,10 +14,10 @@ export const CartContext = createContext({
 const urlEndpoint = 'http://localhost:5001';    
 
 export function CartProvider({children}){
-    const [toys, setToys] = useState([]);
+    const [Cards, setCards] = useState([]);
 
     function getProductData(id){
-        let productData = toys.find(product => product.id === id)
+        let productData = Cards.find(product => product.id === id)
     
         if(productData === undefined){
             console.log("Product data does not exist for ID" + id)
@@ -29,7 +29,7 @@ export function CartProvider({children}){
 
     useEffect (()=>{
         axios.get(`${urlEndpoint}/dinosaurs/all`).then((response)=>{
-            setToys(response.data.Toys);
+            setCards(response.data.Cards);
         })
     },[])
     const [cartProducts, setCartProducts] = useState([]);
@@ -37,7 +37,7 @@ export function CartProvider({children}){
     // Cart data = [ { id: 1 , quantity:2 } ]
 
     function getProductQuantity(id){
-        const quantity = cartProducts.find(toy => toy.id === id)?.quantity
+        const quantity = cartProducts.find(Card => Card.id === id)?.quantity
       
         if(quantity === undefined){
             return 0;
@@ -61,10 +61,10 @@ export function CartProvider({children}){
     } else{   //Product is in cart
         setCartProducts(
             cartProducts.map(
-                toy =>
-                toy.id === id                              //If statement
-                ? { ...toy, quantity: toy.quantity + 1 } //If statement is true
-                : toy                                    // If statement is false
+                Card =>
+                Card.id === id                              //If statement
+                ? { ...Card, quantity: Card.quantity + 1 } //If statement is true
+                : Card                                    // If statement is false
             )
         )
     }
@@ -78,10 +78,10 @@ export function CartProvider({children}){
         } else {
             setCartProducts(
                 cartProducts.map(
-                    toy =>
-                    toy.id === id                              
-                    ? {...toy, quantity: toy.quantity - 1}
-                    : toy                                      
+                    Card =>
+                    Card.id === id                              
+                    ? {...Card, quantity: Card.quantity - 1}
+                    : Card                                      
                 )
             )
         }
@@ -108,7 +108,7 @@ export function CartProvider({children}){
 
 
     const contextValue = {
-        toys,
+        Cards,
         items: cartProducts,
         getProductQuantity,
         addOneToCart,

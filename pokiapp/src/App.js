@@ -32,6 +32,10 @@ function App() {
 					path: "Registration",
 					element: <RegistrationPage />
 				},
+				{
+					path: "Catalog",
+					element: <Catalog />
+				}
         
 			],
 		},

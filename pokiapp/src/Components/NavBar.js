@@ -21,6 +21,8 @@ const NavBar = () => {
           <Nav.Link href="/registration">Registration</Nav.Link>
           <br></br>
 			    <Nav.Link href="/login">Login</Nav.Link>
+          <br></br>
+          <Nav.Link href="/Catalog">Catalog</Nav.Link>
             {/* <NavDropdown title="Members only" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/create-one">Create Blog</NavDropdown.Item>
               

@@ -4,7 +4,7 @@ Home Page - Where user can see greeting to site and navigation
 
 Account Registration - Where user can create an account to be remembered and store items in cart 
 
-ccount Login - Where user can login to account 
+count Login - Where user can login to account 
 
 Product List Page - Where users can explore the wide variety of pokemons
 
@@ -46,6 +46,12 @@ Contact:
  server: https://discord.com/channels/591366881529692177/591366881529692185 
 
 
+
+
+Select pokemon
+read skills
+edit skills
+delete pokemon
 
 
 
