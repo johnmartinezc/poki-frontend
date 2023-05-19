@@ -8,7 +8,7 @@ import { Search } from './Product';
 
 import React from "react";
 import Cards from "../Components/PokemonCard";
-import fetchPokemon from "../Components/Pokecards"
+import fetechPokemon from "../Components/Pokecards"
 
 
 

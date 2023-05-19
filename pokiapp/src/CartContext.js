@@ -28,7 +28,7 @@ export function CartProvider({children}){
     }
 
     useEffect (()=>{
-        axios.get(`${urlEndpoint}/dinosaurs/all`).then((response)=>{
+        axios.get(`${urlEndpoint}`).then((response)=>{
             setCards(response.data.Cards);
         })
     },[])
