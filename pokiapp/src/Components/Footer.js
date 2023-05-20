@@ -8,37 +8,28 @@ const Footer = () => {
                 <div className="sb__footer-links">
                     <div className="sb__footer-links_div">
                         <h4>For Business</h4>
-                        <a href="/employer">
+                        <a href="/Employer">
                             <p>Employer</p>
                         </a>
-                            <a href="healthplan">
-                            <p>Healthplan</p>
-                        </a>
-                        <a href="/individual">
+                        <a href="/Individual">
                             <p>Individual</p>
                         </a>
                     </div>
                     <div className="sb__footer-links_div">
                         <h4>Resources</h4>
-                        <a href="/resource">
+                        <a href="/ResourceCenter">
                             <p>Resource Center</p>
                         </a> 
-                            <a href="/resource">
+                            <a href="/Testimonials">
                             <p>Testimonials</p>
                         </a> 
-                            <a href="/resource">
-                            <p>STV</p>
-                        </a>
                         </div>
                     <div className="sb__footer-links_div">
                         <h4>Company</h4>   
-                            <a href="/about">
+                            <a href="/About">
                             <p>About</p>
                         </a>
-                                <a href="/press">
-                            <p>Press</p>
-                        </a>
-                            <a href="/contact">
+                            <a href="/Contact">
                             <p>Contact</p>
                         </a>
                     </div>
@@ -50,12 +41,12 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="belowLinks">
-                        <a href="/terms"><div><p>Terms & Conditions</p></div></a>
-                        <a href="/privacy"><div><p>Privacy</p></div></a>
-                        <a href="/security"><div><p>Security</p></div></a>
-                        <a href="/cookie"><div><p>Cookie Declaration</p></div></a>
+                        <a href="/Terms"><div><p>Terms & Conditions</p></div></a>
+                        <a href="/Privacy"><div><p>Privacy</p></div></a>
+                        <a href="/Security"><div><p>Security</p></div></a>
+                        <a href="/Cookie"><div><p>Cookie Declaration</p></div></a>
                     </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>

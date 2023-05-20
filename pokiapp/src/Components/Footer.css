@@ -81,7 +81,6 @@ hr{
     font-weight: 600;
 }
 
-
 @media screen and (max-width: 850px) {
     .sb__footer-heading h1{
         font-size: 44px;

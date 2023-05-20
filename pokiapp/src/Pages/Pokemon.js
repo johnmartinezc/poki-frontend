@@ -17,8 +17,8 @@ function Apps() {
 
   async function getAPI() {
     await fetch(`https://pokeapi.co/api/v2/pokemon/`)
+    // await fetch(`https://pokeapi.co/api/v2/pokemon/${userInput.value}`)
 
-    // https://pokeapi.co/api/v2/pokemon/${userInput.value}`
       .then(response => response.json())
       .then(data => setCardList(data.results));
   }
@@ -59,3 +59,4 @@ export default Apps;
 // export default Pokemon;
 
 //test
+

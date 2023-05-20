@@ -26,11 +26,11 @@ const Cards =({characters}) => {
                             <Form.Label column="true" sm="6">In Cart: {productQuantity}</Form.Label>
                             <Col sm="6">
                             <Button sm="6" onClick={() => addOneToCart(card.name)} className="mx-2" >+</Button>
-                             
-                                <Button sm="6" onClick={() => removeOneFromCart(card.name)} className="mx-2">-</Button>
+                            <Button sm="6" onClick={() => removeOneFromCart(card.name)} className="mx-2">-</Button>
                             </Col>
                         </Form>
-       
+                        <Button variant="danger" onClick={() => deleteFromCart(card.id)} className="my-2">Remove from cart</Button>
+                        <Button variant="primary" onClick={()=> addOneToCart(card.id)}>Add To Cart</Button>
                 </div>
             </div>
         )

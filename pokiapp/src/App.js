@@ -1,10 +1,12 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import GlobalLayout from "./Layouts/GlobalLayout";
 import HomePage from "./Pages/HomePage";
 import LoginPage from "./Pages/Login";
 import RegistrationPage from "./Pages/Registration";
 import Catalog from "./Pages/Catalog";
 import Pokemon from "./Pages/Pokemon";
+
 import './App.css';
 
 function App() {
@@ -35,6 +37,10 @@ function App() {
 				{
 					path: "Catalog",
 					element: <Catalog />
+				},
+				{
+					path: "Shoppingcart",
+					element: <fetchPokemon />
 				}
         
 			],
@@ -43,7 +49,9 @@ function App() {
 
   return (
     <div className="App-header">
-			<RouterProvider router={router} />
+		<RouterProvider router={router}/>
+		{/* <Footer/> */}
+
     </div>
   );
 }
